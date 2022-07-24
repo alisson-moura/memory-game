@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  cursor: url('../images/normal.cur') 4 12, auto;
+}
+
+input {
+  caret-color: #010A13;
+}
+
+input:hover, button:hover {
+  cursor: url('../images/link.cur') 4 12, auto;
+}
+
+button:disabled {
+  cursor: url('../images/unavailable.cur') 4 12, auto;
+}
